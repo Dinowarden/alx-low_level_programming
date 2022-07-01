@@ -1,9 +1,9 @@
 #include <stdio.h>
-/*
+/**
  * First description
- * */
+ */
 
-int main(void)/* main description*/
+int main(void) /* main description*/
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
