@@ -1,7 +1,9 @@
 #include <stdio.h>
+
 /**
  *Descriptio of main
  */
+
 int main(void){
 	puts("\"Programming is like building a multilingual puzzle");
 	/**
@@ -9,3 +11,6 @@ int main(void){
 	 */
 	return (0);
 }
+/*
+ *
+ */
