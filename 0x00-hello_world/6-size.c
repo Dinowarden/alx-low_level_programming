@@ -3,10 +3,7 @@
  * First description
  * */
 
-int main(void)
-/**
- *This is a comment about code.
- */
+int main(void)/* main description*/
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
