@@ -3,7 +3,6 @@
  *main - First description
  *Return :0 
  */
-
 int main(void) /* main description*/
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
