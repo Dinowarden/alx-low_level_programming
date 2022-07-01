@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * First description
+ *main - First description
+ *Return :0 
  */
 
 int main(void) /* main description*/

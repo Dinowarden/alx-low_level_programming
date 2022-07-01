@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- *Descriptio of main
+ *main - Descriptio of main
+ *Return: 0
  */
 
 int main(void)/*Main description*/
