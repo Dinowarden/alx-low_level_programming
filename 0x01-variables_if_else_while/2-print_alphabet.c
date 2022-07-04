@@ -14,9 +14,7 @@ int main(void)
 
 {
 
-	<<<<<<< HEAD
-
-		int num;
+	int num;
 
 	num = 97;
 
@@ -26,9 +24,7 @@ int main(void)
 
 	num++;
 
-	=======
-
-		int p;
+	int p;
 
 	p = 97;
 
@@ -42,9 +38,7 @@ int main(void)
 
 	}
 
-	>>>>>>> c38d008b18676f16774155151031a0fcc1c46752
-
-		putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
