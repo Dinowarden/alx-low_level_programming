@@ -5,18 +5,21 @@
  */
 int main(void)
 {
-int num;
-num = 97;
-while (num <= 122)
-putchar(num);
-num++;
+int y;
 
-int p;
-p = 97;
-while (p <= 122)
+for (y = 97; y <= 122; y++)
 {
-putchar(p);
-p++;
+
+       if (m == 101 || m == 113)
+=======
+if (y == 101 || y == 113)
+
+{
+}
+else
+{
+putchar(y);
+}
 }
 putchar('\n');
 return (0);

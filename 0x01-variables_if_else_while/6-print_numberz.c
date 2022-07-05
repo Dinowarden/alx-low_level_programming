@@ -5,18 +5,11 @@
  */
 int main(void)
 {
-int num;
-num = 97;
-while (num <= 122)
-putchar(num);
-num++;
+int k;
 
-int p;
-p = 97;
-while (p <= 122)
+for (k = 48; k <= 57; k++)
 {
-putchar(p);
-p++;
+putchar(k);
 }
 putchar('\n');
 return (0);
