@@ -3,7 +3,6 @@
  * _islower checks if the character is lowercase
  * @c: a charcter argument
  * Return: returns 1 and 0 depending on condition
- * print_alphabet -> prints the lowercase alph
  */     
 int _islower(int c)
 {
