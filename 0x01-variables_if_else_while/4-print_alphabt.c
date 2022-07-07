@@ -1,26 +1,21 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - entry point
+ * Return: alway returns 0
  */
 int main(void)
 {
-int y;
+	char a;
 
-for (y = 97; y <= 122; y++)
-{
+	for (a = 'a'; a <= 'z' ; a++)
+	{
+		if (a == 'q' || a == 'e')
+		{
+			continue;
+		}
+		putchar(a);
+	}
+	putchar('\n');
+	return (0);
 
-       if (m == 101 || m == 113)
-=======
-if (y == 101 || y == 113)
-
-{
-}
-else
-{
-putchar(y);
-}
-}
-putchar('\n');
-return (0);
 }

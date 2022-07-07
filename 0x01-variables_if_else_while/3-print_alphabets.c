@@ -1,25 +1,16 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - entry point
+ * Return: alway returns 0
  */
 int main(void)
 {
-int x, y;
+	char a;
 
-for (m = 97; m <= 122; m++)
-putchar(m);
-for (n = 65; n <= 90; n++)
-putchar(n);
-for (x = 97; x<= 122; x++)
-{
-putchar(x);
-}
-for (y = 65; y <= 90; y++)
-{
-putchar(y);
-}
-
-putchar('\n');
-return (0);
+	for (a = 'a'; a <= 'z' ; a++)
+		putchar(a);
+	for (a = 'A'; a <= 'Z'; a++)
+		putchar(a);
+	putchar('\n');
+	return (0);
 }

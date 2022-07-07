@@ -1,23 +1,15 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - entry point
+ *
+ * Return: alway returns 0
  */
 int main(void)
 {
-int num;
-num = 97;
-while (num <= 122)
-putchar(num);
-num++;
+	char a;
 
-int p;
-p = 97;
-while (p <= 122)
-{
-putchar(p);
-p++;
-}
-putchar('\n');
-return (0);
+	for (a = 'a'; a <= 'z' ; a++)
+		putchar(a);
+	putchar('\n');
+	return (0);
 }
