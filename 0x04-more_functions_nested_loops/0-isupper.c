@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include "main.h"
 /**
  * _isupper - checks is a character is uppercase
@@ -6,13 +7,10 @@
  */
 int _isupper(int c)
 {
-if (c >= 'A' && c <= '2')
-{
-return (1);
-}
-else
-{
-return (0);
-}
+	int a = isupper(c);
 
+	if (a == 0)
+		return (a);
+	else
+		return (1);
 }

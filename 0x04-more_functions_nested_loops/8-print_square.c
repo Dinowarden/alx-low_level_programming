@@ -3,7 +3,7 @@
  * print_square - prints square stuff
  * @size: integer to set square size
  */
-void print_square(int n)
+void print_square(int size)
 {
 	int i;
 	int j;
