@@ -4,6 +4,7 @@
  * @head: head of linked list
  * Return: value of sum
  */
+
 int sum_listint(listint_t *head)
 {
 	listint_t *tmp;
